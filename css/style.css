@@ -1,0 +1,96 @@
+/* General */
+html{
+	font-size:16px;
+}
+body {
+ 	font-family: 'Cormorant Infant', serif;
+ }
+p {
+ 	font-size: 1.25em;
+ 	color: #999;
+ 	line-height: 1.6;
+ }
+h1 {
+ 	font-size: 3.125em;
+ 	color: #EE82EE;
+ }
+h2 {
+ 	font-size: 1.75em;
+ 	color: #4B0082;
+ }
+
+/* Header */
+header {
+	display: block;
+ 	background-color: #E6E6FA;
+ 	padding: 3px;
+ }
+ header .logo {
+ 	float: left;
+ 	color: #B0E0E6;
+	margin-left:40%;
+ }
+ .musthead{
+	background-size: cover;
+	min-height: 80vh;
+	position: relative;
+	height:100%;
+ }
+ 
+ .color-overlay{
+	 position: absolute;
+	 width:100%;
+	 height:100%;
+ }
+ @media (max-width: 768px) {
+	.musthead{
+		min-height: 30vh;
+	}
+	.button {
+		font-size: calc(1.525rem + 3.3vw);
+	}
+	h1{
+		font-size: calc(1.525rem + 3.3vw);
+	}
+	h2{
+		font-size: calc(1.525rem + 3.3vw);
+	}
+	p{
+		font-size: calc(1.525rem + 3.3vw);
+	}
+ }
+
+/* Services */
+  .service {
+ 	width: 33.333333%;
+	min-height: auto;
+ 	float: left;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+
+ }
+.service .fa-solid {
+ 	color: #979797;
+ 	margin-bottom: 15px;
+ }
+.photo{
+	float: left; 
+	width: 33.333333%; 
+	padding: 10px; 
+	box-sizing: border-box;
+	display: block;
+	max-width: 100%;
+	height: auto;	
+ }
+ 
+ .row{
+	 height:25%;
+ }
+ 
+ .fill{
+	height:572px;
+ }
+
+
